@@ -5,9 +5,9 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
       driver-class-name: com.mysql.jdbc.Driver
-      url: jdbc:mysql://localhost:3306/spring-boot-demo?useUnicode=true&characterEncoding=utf8
-      username: demo_admin
-      password: 43997k7k
+      url: jdbc:mysql://localhost:3306/ipproxy?useUnicode=true&characterEncoding=utf8
+      username: root
+      password: root
       # 初始化时建立的连接数
       initial-size: 5
       # 最大连接数
